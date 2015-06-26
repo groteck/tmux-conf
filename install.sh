@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
-
+scriptPath=$(readlink -f `dirname $0`)
+echo $scriptPath
 git submodule init
 git submodule update
-cp -r * ~
+ln -s $scriptPath/.tmux.conf ~/.tmux.conf
+ln -s $scriptPath/.tmux.config ~/.tmux.config
