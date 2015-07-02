@@ -3,7 +3,7 @@ This is my personal tmux config, I used in my "personal/virtual" machines.
 
 # How I can install this config?
 ```bash
-wget -O - http://dl.dropbox.com/u/11210438/flockonus-stack.sh | bash
+wget -O - https://raw.githubusercontent.com/groteck/tmux-conf/master/install.sh | bash
 ```
 
 # How I can delete this config?
