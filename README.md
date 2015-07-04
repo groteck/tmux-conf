@@ -1,5 +1,5 @@
 # What's this?
-This is my personal tmux config, I used in my "personal/virtual" machines.
+This is my personal tmux config, I use it in my "personal/virtual" machines.
 
 # How I can install this config?
 ```bash
@@ -11,5 +11,5 @@ wget -O - https://raw.githubusercontent.com/groteck/tmux-conf/master/install.sh 
 rm -rf ~/.tmux*
 ```
 
-# How it looks?
+# How does it look?
 ![Image of my tmux config](/look.png)
